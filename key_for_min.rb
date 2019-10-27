@@ -3,9 +3,9 @@
 
 
 #we need to iterate over the hash and find the key that has the smallest value, and return just that key. Else return nil.
-def key_for_min_value(hash)
+def key_for_min_value(name_hash)
   min_val = 0
-  key_for_min_value.each do |key, val|
+  name_hash.each do |key, val|
     if
       min_val < val
         min_val = val 
