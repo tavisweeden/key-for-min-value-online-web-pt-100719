@@ -14,3 +14,5 @@ else
 
 end
 end
+min_val
+end
